@@ -10,7 +10,9 @@ const Home: React.FC = () => (
         paddingBottom: "1rem",
       }}
     >
-      <Link to="/">Home</Link> | <Link to="/simple">Simpel</Link>
+      <Link to="/">Home</Link> | <Link to="/simple">Simple Page</Link> |{" "}
+      <Link to="/product/1">Product 1</Link> |{" "}
+      <Link to="/product/2">Product 2</Link>
     </nav>
   </div>
 );
