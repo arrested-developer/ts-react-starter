@@ -7,7 +7,8 @@
     "start": "webpack serve --config webpack.config.js --env env=development",
     "build": "rm -rf dist && webpack --config webpack.config.js --env env=production",
     "prepare": "husky install",
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint . --cache --ext .js,.jsx,.ts,.tsx"
   },
   "lint-staged": {
     "*.{js,ts,jsx,tsx}": "eslint --cache"
